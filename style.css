@@ -1,0 +1,122 @@
+body{
+    background-color: green;
+
+  }
+
+
+.div{
+    justify-content: flex-end;
+  
+}
+
+header{
+  position: sticky;
+  top: 0px;
+}
+
+nav {
+    list-style-type: none;
+    font-size: 2.5rem;
+    position: sticky;
+    display: flex;
+    width: 100%;
+    min-height: 8vh;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #10742c;
+    justify-content: flex-start;
+    margin: 0%;
+    padding: 0;
+    top: 0%;
+    
+    }
+    
+    ul {
+      display: flex;
+      list-style-type: none;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      padding: 0 4rem 0 4rem;
+      display: block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background: #E9E9E9;
+      min-width: 20vw;
+      z-index: 1;
+      box-shadow: 0rem 0.5rem 1rem 0rem rgb(0,0,0,0.2);
+      justify-content: end
+      ;
+    }
+    
+    .dropbtn{
+      justify-content: flex-end;
+    }
+
+    .dropdown-content a {
+      color: #00a9c7;
+      padding: 0.8rem 1rem;
+      display: block;
+      text-align: left;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+      background: white ;
+    }
+    
+    .dropdown:hover .dropbutton {
+      background-color:#E9E9E9;
+      color:#00a9c7;
+    }
+    
+    .hacker {
+        width: 250px;
+        margin-left: 2rem;}
+
+      section{
+        justify-content:flex-end;
+        display: flex;
+       }
+       article{
+         margin-right: 20vw;
+         font-size: large;
+         margin-top: 10vw;
+       }
+
+       .container{
+        font-size: larger;
+        justify-content: flex-start;
+        }
+
+       .luffy{
+        font-size: xx-large;
+       }
+        table{
+          width: 300px;
+          height: 300px;
+        }
+        .interview1{
+          justify-content: flex-start;
+        }
+        .interview2{
+          justify-content: flex-start;
+        }
+      .rooster{
+        justify-content: flex-start;
+      }
+      .cijfers{
+        justify-content: flex-start;
+      }
+      .begeleiding{
+        font-size: large;
+      }
+      .home{
+        font-size: larger;
+      }
